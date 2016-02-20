@@ -28,6 +28,8 @@
 		C84825151C783BD600A10ACA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C848250F1C783BD600A10ACA /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
 		C84825161C783BD600A10ACA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C84825101C783BD600A10ACA /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		C84825181C783E5B00A10ACA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C84825171C783E5B00A10ACA /* libsqlite3.tbd */; };
+		C848251E1C784B3600A10ACA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C848251D1C784B3600A10ACA /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C84825211C784B5700A10ACA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84825201C784B5700A10ACA /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,10 @@
 		C848250F1C783BD600A10ACA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		C84825101C783BD600A10ACA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C84825171C783E5B00A10ACA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C848251C1C784B3600A10ACA /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C848251D1C784B3600A10ACA /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C848251F1C784B5700A10ACA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C84825201C784B5700A10ACA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 			children = (
 				C84824F01C783BB800A10ACA /* AFNetworking */,
 				C84825041C783BD600A10ACA /* fmdb */,
+				C84825191C78499300A10ACA /* Models */,
+				C848251A1C7849B500A10ACA /* Views */,
+				C848251B1C7849C100A10ACA /* Controllers */,
 				C84824C01C7837F200A10ACA /* AppDelegate.h */,
 				C84824C11C7837F200A10ACA /* AppDelegate.m */,
 				C84824C31C7837F200A10ACA /* ViewController.h */,
@@ -220,6 +229,31 @@
 				C84825101C783BD600A10ACA /* Info.plist */,
 			);
 			path = fmdb;
+			sourceTree = "<group>";
+		};
+		C84825191C78499300A10ACA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C848251A1C7849B500A10ACA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C848251B1C7849C100A10ACA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C848251C1C784B3600A10ACA /* MasterViewController.h */,
+				C848251D1C784B3600A10ACA /* MasterViewController.m */,
+				C848251F1C784B5700A10ACA /* DetailViewController.h */,
+				C84825201C784B5700A10ACA /* DetailViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,10 +390,12 @@
 				C84825031C783BB800A10ACA /* AFURLSessionManager.m in Sources */,
 				C84825131C783BD600A10ACA /* FMDatabasePool.m in Sources */,
 				C84825151C783BD600A10ACA /* FMResultSet.m in Sources */,
+				C84825211C784B5700A10ACA /* DetailViewController.m in Sources */,
 				C84824C51C7837F200A10ACA /* ViewController.m in Sources */,
 				C84824C21C7837F200A10ACA /* AppDelegate.m in Sources */,
 				C84825141C783BD600A10ACA /* FMDatabaseQueue.m in Sources */,
 				C84825111C783BD600A10ACA /* FMDatabase.m in Sources */,
+				C848251E1C784B3600A10ACA /* MasterViewController.m in Sources */,
 				C84824FF1C783BB800A10ACA /* AFNetworkReachabilityManager.m in Sources */,
 				C84824BF1C7837F200A10ACA /* main.m in Sources */,
 				C84825001C783BB800A10ACA /* AFSecurityPolicy.m in Sources */,

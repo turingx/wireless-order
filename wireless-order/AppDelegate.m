@@ -17,6 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+   // 1.master
+    self.master = [[MasterViewController alloc] init];
+    UINavigationController *masterNav = [[UINavigationController alloc]initWithRootViewController:self.master];
+    self.master.title = @"无线点餐";
+    
+    //2.detail
+    self.detail = [[DetailViewController alloc] init];
+    UINavigationController *detailNav = [[UINavigationController alloc]initWithRootViewController:self.detail];
+    
+    
+    //3.split
+    self.split = [[UISplitViewController alloc] init];
+    self.split.viewControllers = @[masterNav, detailNav];
+    self.split.maximumPrimaryColumnWidth = 200;
+    
+    self.window.rootViewController = self.split;
+    
     return YES;
 }
 
