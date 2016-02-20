@@ -15,6 +15,19 @@
 		C84824CD1C7837F200A10ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84824CB1C7837F200A10ACA /* LaunchScreen.storyboard */; };
 		C84824D81C7837F200A10ACA /* wireless_orderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824D71C7837F200A10ACA /* wireless_orderTests.m */; };
 		C84824E31C7837F200A10ACA /* wireless_orderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824E21C7837F200A10ACA /* wireless_orderUITests.m */; };
+		C84824FE1C783BB800A10ACA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824F21C783BB800A10ACA /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		C84824FF1C783BB800A10ACA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824F51C783BB800A10ACA /* AFNetworkReachabilityManager.m */; settings = {ASSET_TAGS = (); }; };
+		C84825001C783BB800A10ACA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824F71C783BB800A10ACA /* AFSecurityPolicy.m */; settings = {ASSET_TAGS = (); }; };
+		C84825011C783BB800A10ACA /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824F91C783BB800A10ACA /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		C84825021C783BB800A10ACA /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824FB1C783BB800A10ACA /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		C84825031C783BB800A10ACA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824FD1C783BB800A10ACA /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		C84825111C783BD600A10ACA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C84825061C783BD600A10ACA /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		C84825121C783BD600A10ACA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C84825081C783BD600A10ACA /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C84825131C783BD600A10ACA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C848250A1C783BD600A10ACA /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
+		C84825141C783BD600A10ACA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C848250C1C783BD600A10ACA /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
+		C84825151C783BD600A10ACA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C848250F1C783BD600A10ACA /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		C84825161C783BD600A10ACA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C84825101C783BD600A10ACA /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		C84825181C783E5B00A10ACA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C84825171C783E5B00A10ACA /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,32 @@
 		C84824DE1C7837F200A10ACA /* wireless-orderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wireless-orderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84824E21C7837F200A10ACA /* wireless_orderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wireless_orderUITests.m; sourceTree = "<group>"; };
 		C84824E41C7837F200A10ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84824F11C783BB800A10ACA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C84824F21C783BB800A10ACA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C84824F31C783BB800A10ACA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C84824F41C783BB800A10ACA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C84824F51C783BB800A10ACA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C84824F61C783BB800A10ACA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C84824F71C783BB800A10ACA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C84824F81C783BB800A10ACA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C84824F91C783BB800A10ACA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C84824FA1C783BB800A10ACA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C84824FB1C783BB800A10ACA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C84824FC1C783BB800A10ACA /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C84824FD1C783BB800A10ACA /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C84825051C783BD600A10ACA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C84825061C783BD600A10ACA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C84825071C783BD600A10ACA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C84825081C783BD600A10ACA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C84825091C783BD600A10ACA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C848250A1C783BD600A10ACA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C848250B1C783BD600A10ACA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C848250C1C783BD600A10ACA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C848250D1C783BD600A10ACA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C848250E1C783BD600A10ACA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C848250F1C783BD600A10ACA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C84825101C783BD600A10ACA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84825171C783E5B00A10ACA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84825181C783E5B00A10ACA /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +141,8 @@
 		C84824BC1C7837F200A10ACA /* wireless-order */ = {
 			isa = PBXGroup;
 			children = (
+				C84824F01C783BB800A10ACA /* AFNetworking */,
+				C84825041C783BD600A10ACA /* fmdb */,
 				C84824C01C7837F200A10ACA /* AppDelegate.h */,
 				C84824C11C7837F200A10ACA /* AppDelegate.m */,
 				C84824C31C7837F200A10ACA /* ViewController.h */,
@@ -138,6 +180,46 @@
 				C84824E41C7837F200A10ACA /* Info.plist */,
 			);
 			path = "wireless-orderUITests";
+			sourceTree = "<group>";
+		};
+		C84824F01C783BB800A10ACA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C84824F11C783BB800A10ACA /* AFHTTPSessionManager.h */,
+				C84824F21C783BB800A10ACA /* AFHTTPSessionManager.m */,
+				C84824F31C783BB800A10ACA /* AFNetworking.h */,
+				C84824F41C783BB800A10ACA /* AFNetworkReachabilityManager.h */,
+				C84824F51C783BB800A10ACA /* AFNetworkReachabilityManager.m */,
+				C84824F61C783BB800A10ACA /* AFSecurityPolicy.h */,
+				C84824F71C783BB800A10ACA /* AFSecurityPolicy.m */,
+				C84824F81C783BB800A10ACA /* AFURLRequestSerialization.h */,
+				C84824F91C783BB800A10ACA /* AFURLRequestSerialization.m */,
+				C84824FA1C783BB800A10ACA /* AFURLResponseSerialization.h */,
+				C84824FB1C783BB800A10ACA /* AFURLResponseSerialization.m */,
+				C84824FC1C783BB800A10ACA /* AFURLSessionManager.h */,
+				C84824FD1C783BB800A10ACA /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C84825041C783BD600A10ACA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				C84825171C783E5B00A10ACA /* libsqlite3.tbd */,
+				C84825051C783BD600A10ACA /* FMDatabase.h */,
+				C84825061C783BD600A10ACA /* FMDatabase.m */,
+				C84825071C783BD600A10ACA /* FMDatabaseAdditions.h */,
+				C84825081C783BD600A10ACA /* FMDatabaseAdditions.m */,
+				C84825091C783BD600A10ACA /* FMDatabasePool.h */,
+				C848250A1C783BD600A10ACA /* FMDatabasePool.m */,
+				C848250B1C783BD600A10ACA /* FMDatabaseQueue.h */,
+				C848250C1C783BD600A10ACA /* FMDatabaseQueue.m */,
+				C848250D1C783BD600A10ACA /* FMDB.h */,
+				C848250E1C783BD600A10ACA /* FMResultSet.h */,
+				C848250F1C783BD600A10ACA /* FMResultSet.m */,
+				C84825101C783BD600A10ACA /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84825161C783BD600A10ACA /* Info.plist in Resources */,
 				C84824CD1C7837F200A10ACA /* LaunchScreen.storyboard in Resources */,
 				C84824CA1C7837F200A10ACA /* Assets.xcassets in Resources */,
 				C84824C81C7837F200A10ACA /* Main.storyboard in Resources */,
@@ -270,9 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84825031C783BB800A10ACA /* AFURLSessionManager.m in Sources */,
+				C84825131C783BD600A10ACA /* FMDatabasePool.m in Sources */,
+				C84825151C783BD600A10ACA /* FMResultSet.m in Sources */,
 				C84824C51C7837F200A10ACA /* ViewController.m in Sources */,
 				C84824C21C7837F200A10ACA /* AppDelegate.m in Sources */,
+				C84825141C783BD600A10ACA /* FMDatabaseQueue.m in Sources */,
+				C84825111C783BD600A10ACA /* FMDatabase.m in Sources */,
+				C84824FF1C783BB800A10ACA /* AFNetworkReachabilityManager.m in Sources */,
 				C84824BF1C7837F200A10ACA /* main.m in Sources */,
+				C84825001C783BB800A10ACA /* AFSecurityPolicy.m in Sources */,
+				C84825121C783BD600A10ACA /* FMDatabaseAdditions.m in Sources */,
+				C84825011C783BB800A10ACA /* AFURLRequestSerialization.m in Sources */,
+				C84825021C783BB800A10ACA /* AFURLResponseSerialization.m in Sources */,
+				C84824FE1C783BB800A10ACA /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
