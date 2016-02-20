@@ -1,14 +1,15 @@
 //
-//  constant.h
+//  MenuView.h
 //  wireless-order
 //
 //  Created by turingx on 16/2/20.
 //  Copyright © 2016年 turingx. All rights reserved.
 //
 
-#ifndef constant_h
-#define constant_h
+#import <UIKit/UIKit.h>
 
-#define MAX_WIDTH 160
+@interface MenuView : UIView
 
-#endif /* constant_h */
+-(instancetype)initWithFrame:(CGRect)frame;
+
+@end

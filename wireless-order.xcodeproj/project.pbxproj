@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81B240D1C78788B00C44EA2 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B240C1C78788B00C44EA2 /* MenuView.m */; settings = {ASSET_TAGS = (); }; };
+		C81B24101C7878AF00C44EA2 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B240F1C7878AF00C44EA2 /* TableView.m */; settings = {ASSET_TAGS = (); }; };
+		C81B24131C7878C300C44EA2 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24121C7878C300C44EA2 /* PayView.m */; settings = {ASSET_TAGS = (); }; };
+		C81B24161C7878F500C44EA2 /* SyncDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24151C7878F500C44EA2 /* SyncDataView.m */; settings = {ASSET_TAGS = (); }; };
+		C81B24191C787A5100C44EA2 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24181C787A5100C44EA2 /* SettingView.m */; settings = {ASSET_TAGS = (); }; };
 		C84824BF1C7837F200A10ACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824BE1C7837F200A10ACA /* main.m */; };
 		C84824C21C7837F200A10ACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824C11C7837F200A10ACA /* AppDelegate.m */; };
 		C84824C51C7837F200A10ACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824C41C7837F200A10ACA /* ViewController.m */; };
@@ -50,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C81B240B1C78788B00C44EA2 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		C81B240C1C78788B00C44EA2 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		C81B240E1C7878AF00C44EA2 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		C81B240F1C7878AF00C44EA2 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		C81B24111C7878C300C44EA2 /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		C81B24121C7878C300C44EA2 /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		C81B24141C7878F500C44EA2 /* SyncDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncDataView.h; sourceTree = "<group>"; };
+		C81B24151C7878F500C44EA2 /* SyncDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncDataView.m; sourceTree = "<group>"; };
+		C81B24171C787A5100C44EA2 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		C81B24181C787A5100C44EA2 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
 		C84824BA1C7837F200A10ACA /* wireless-order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wireless-order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84824BE1C7837F200A10ACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C84824C01C7837F200A10ACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -243,6 +258,16 @@
 		C848251A1C7849B500A10ACA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C81B240B1C78788B00C44EA2 /* MenuView.h */,
+				C81B240C1C78788B00C44EA2 /* MenuView.m */,
+				C81B240E1C7878AF00C44EA2 /* TableView.h */,
+				C81B240F1C7878AF00C44EA2 /* TableView.m */,
+				C81B24111C7878C300C44EA2 /* PayView.h */,
+				C81B24121C7878C300C44EA2 /* PayView.m */,
+				C81B24141C7878F500C44EA2 /* SyncDataView.h */,
+				C81B24151C7878F500C44EA2 /* SyncDataView.m */,
+				C81B24171C787A5100C44EA2 /* SettingView.h */,
+				C81B24181C787A5100C44EA2 /* SettingView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -391,12 +416,17 @@
 			files = (
 				C84825031C783BB800A10ACA /* AFURLSessionManager.m in Sources */,
 				C84825131C783BD600A10ACA /* FMDatabasePool.m in Sources */,
+				C81B24191C787A5100C44EA2 /* SettingView.m in Sources */,
+				C81B24131C7878C300C44EA2 /* PayView.m in Sources */,
 				C84825151C783BD600A10ACA /* FMResultSet.m in Sources */,
 				C84825211C784B5700A10ACA /* DetailViewController.m in Sources */,
 				C84824C51C7837F200A10ACA /* ViewController.m in Sources */,
+				C81B240D1C78788B00C44EA2 /* MenuView.m in Sources */,
 				C84824C21C7837F200A10ACA /* AppDelegate.m in Sources */,
 				C84825141C783BD600A10ACA /* FMDatabaseQueue.m in Sources */,
 				C84825111C783BD600A10ACA /* FMDatabase.m in Sources */,
+				C81B24101C7878AF00C44EA2 /* TableView.m in Sources */,
+				C81B24161C7878F500C44EA2 /* SyncDataView.m in Sources */,
 				C848251E1C784B3600A10ACA /* MasterViewController.m in Sources */,
 				C84824FF1C783BB800A10ACA /* AFNetworkReachabilityManager.m in Sources */,
 				C84824BF1C7837F200A10ACA /* main.m in Sources */,
@@ -628,6 +658,7 @@
 				C84824E91C7837F200A10ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84824EA1C7837F200A10ACA /* Build configuration list for PBXNativeTarget "wireless-orderTests" */ = {
 			isa = XCConfigurationList;
@@ -636,6 +667,7 @@
 				C84824EC1C7837F200A10ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84824ED1C7837F200A10ACA /* Build configuration list for PBXNativeTarget "wireless-orderUITests" */ = {
 			isa = XCConfigurationList;
@@ -644,6 +676,7 @@
 				C84824EF1C7837F200A10ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

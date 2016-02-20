@@ -11,10 +11,9 @@
 
 @interface MasterViewController ()
 
-@property(nonatomic, strong)UITableView *tableView;
-@property(nonatomic, strong)NSMutableArray *datasource;
-
 @end
+
+
 
 @implementation MasterViewController
 
@@ -23,14 +22,17 @@
     
     self.view.backgroundColor = [UIColor redColor];
     
-    self.tableView = [[UITableView alloc] init];
-    self.tableView.frame = CGRectMake(0, 5, MAX_WIDTH, self.view.frame.size.height);
+    self.tv = [[UITableView alloc] init];
+    self.tv.frame = CGRectMake(0, 5, MAX_WIDTH, self.view.frame.size.height);
     //MAX_WIDTH引用自constant.h
-    self.tableView.delegate = self;
-    self.tableView.dataSource =self;
-    [self.view addSubview:self.tableView];
+    self.tv.delegate = self;
+    self.tv.dataSource =self;
+    [self.view addSubview:self.tv];
+
     
     [self initDatasource];  //调用数据源
+    
+    [self initViews]; //调用主视图菜单栏目跳转视图方法
     
     
     // Do any additional setup after loading the view.
@@ -48,6 +50,48 @@
     
 }
 
+-(void)initViews{   //初始化主视图菜单栏目跳转视图
+    
+    self.menuView = [[MenuView alloc] initWithFrame:self.view.frame];
+    self.tableView = [[TableView alloc] initWithFrame:self.view.frame];
+    self.payView = [[PayView alloc] initWithFrame:self.view.frame];
+    self.syncDataView = [[SyncDataView alloc] initWithFrame:self.view.frame];
+    self.settingView = [[SettingView alloc] initWithFrame:self.view.frame];
+
+
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{   //选择某行的cell就切换到对应的视图
+    
+    switch (indexPath.row) {
+        case 0:
+            self.detail.view = self.menuView;
+            NSLog(@"浏览菜单");
+            break;
+        case 1:
+            self.detail.view = self.tableView;
+            NSLog(@"查看餐台");
+            break;
+        case 2:
+            self.detail.view = self.payView;
+            NSLog(@"买单结算");
+            break;
+        case 3:
+            self.detail.view = self.syncDataView;
+            NSLog(@"同步数据");
+            break;
+        case 4:
+            self.detail.view = self.settingView;
+            NSLog(@"系统设置");
+            break;
+            
+        default:
+            break;
+    }
+
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
     return self.datasource.count;
@@ -63,7 +107,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cid"];
         NSString *Item = [self.datasource objectAtIndex:indexPath.row];
-        cell.textLabel.text = Item;
+        cell.textLabel.text = Item;  //将标题名称赋值给cell
     }
     
     return cell;

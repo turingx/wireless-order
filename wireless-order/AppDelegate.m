@@ -27,6 +27,8 @@
     self.detail = [[DetailViewController alloc] init];
     UINavigationController *detailNav = [[UINavigationController alloc]initWithRootViewController:self.detail];
     
+    self.master.detail = self.detail;
+    
     
     //3.split
     self.split = [[UISplitViewController alloc] init];
