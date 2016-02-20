@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "constant.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

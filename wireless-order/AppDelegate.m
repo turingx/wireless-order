@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-   // 1.master
+   // 1.master  设置标题和导航视图
     self.master = [[MasterViewController alloc] init];
     UINavigationController *masterNav = [[UINavigationController alloc]initWithRootViewController:self.master];
     self.master.title = @"无线点餐";
@@ -31,7 +31,7 @@
     //3.split
     self.split = [[UISplitViewController alloc] init];
     self.split.viewControllers = @[masterNav, detailNav];
-    self.split.maximumPrimaryColumnWidth = 200;
+    self.split.maximumPrimaryColumnWidth = MAX_WIDTH;   //导入constant.h里定义的宽度
     
     self.window.rootViewController = self.split;
     

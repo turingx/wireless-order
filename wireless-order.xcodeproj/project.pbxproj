@@ -96,6 +96,7 @@
 		C848251D1C784B3600A10ACA /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		C848251F1C784B5700A10ACA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C84825201C784B5700A10ACA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C84825221C78548200A10ACA /* constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = constant.h; path = ../constant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +161,7 @@
 				C84824C91C7837F200A10ACA /* Assets.xcassets */,
 				C84824CB1C7837F200A10ACA /* LaunchScreen.storyboard */,
 				C84824CE1C7837F200A10ACA /* Info.plist */,
+				C84825221C78548200A10ACA /* constant.h */,
 				C84824BD1C7837F200A10ACA /* Supporting Files */,
 			);
 			path = "wireless-order";
