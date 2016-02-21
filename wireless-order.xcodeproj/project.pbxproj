@@ -12,6 +12,18 @@
 		C81B24131C7878C300C44EA2 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24121C7878C300C44EA2 /* PayView.m */; settings = {ASSET_TAGS = (); }; };
 		C81B24161C7878F500C44EA2 /* SyncDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24151C7878F500C44EA2 /* SyncDataView.m */; settings = {ASSET_TAGS = (); }; };
 		C81B24191C787A5100C44EA2 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B24181C787A5100C44EA2 /* SettingView.m */; settings = {ASSET_TAGS = (); }; };
+		C81B241C1C78C45600C44EA2 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B241B1C78C45600C44EA2 /* BmobSDK.framework */; settings = {ASSET_TAGS = (); }; };
+		C81B241E1C78C48300C44EA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B241D1C78C48300C44EA2 /* CoreLocation.framework */; };
+		C81B24201C78C49300C44EA2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B241F1C78C49300C44EA2 /* Security.framework */; };
+		C81B24221C78C49C00C44EA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24211C78C49C00C44EA2 /* CoreGraphics.framework */; };
+		C81B24241C78C4B900C44EA2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24231C78C4B900C44EA2 /* MobileCoreServices.framework */; };
+		C81B24261C78C4BE00C44EA2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24251C78C4BE00C44EA2 /* CFNetwork.framework */; };
+		C81B24281C78C4D500C44EA2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24271C78C4D500C44EA2 /* CoreTelephony.framework */; };
+		C81B242A1C78C4E700C44EA2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24291C78C4E700C44EA2 /* SystemConfiguration.framework */; };
+		C81B242C1C78C4FD00C44EA2 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B242B1C78C4FD00C44EA2 /* libz.1.2.5.tbd */; };
+		C81B242E1C78C51700C44EA2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B242D1C78C51700C44EA2 /* libicucore.tbd */; };
+		C81B24301C78C53200C44EA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B242F1C78C53200C44EA2 /* AVFoundation.framework */; };
+		C81B24321C78C54400C44EA2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81B24311C78C54400C44EA2 /* MediaPlayer.framework */; };
 		C84824BF1C7837F200A10ACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824BE1C7837F200A10ACA /* main.m */; };
 		C84824C21C7837F200A10ACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824C11C7837F200A10ACA /* AppDelegate.m */; };
 		C84824C51C7837F200A10ACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84824C41C7837F200A10ACA /* ViewController.m */; };
@@ -65,6 +77,18 @@
 		C81B24151C7878F500C44EA2 /* SyncDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncDataView.m; sourceTree = "<group>"; };
 		C81B24171C787A5100C44EA2 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
 		C81B24181C787A5100C44EA2 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		C81B241B1C78C45600C44EA2 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		C81B241D1C78C48300C44EA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C81B241F1C78C49300C44EA2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C81B24211C78C49C00C44EA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C81B24231C78C4B900C44EA2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C81B24251C78C4BE00C44EA2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C81B24271C78C4D500C44EA2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C81B24291C78C4E700C44EA2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C81B242B1C78C4FD00C44EA2 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		C81B242D1C78C51700C44EA2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		C81B242F1C78C53200C44EA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C81B24311C78C54400C44EA2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C84824BA1C7837F200A10ACA /* wireless-order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wireless-order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84824BE1C7837F200A10ACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C84824C01C7837F200A10ACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,7 +143,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81B24321C78C54400C44EA2 /* MediaPlayer.framework in Frameworks */,
+				C81B24301C78C53200C44EA2 /* AVFoundation.framework in Frameworks */,
 				C84825181C783E5B00A10ACA /* libsqlite3.tbd in Frameworks */,
+				C81B242E1C78C51700C44EA2 /* libicucore.tbd in Frameworks */,
+				C81B242C1C78C4FD00C44EA2 /* libz.1.2.5.tbd in Frameworks */,
+				C81B242A1C78C4E700C44EA2 /* SystemConfiguration.framework in Frameworks */,
+				C81B24281C78C4D500C44EA2 /* CoreTelephony.framework in Frameworks */,
+				C81B24261C78C4BE00C44EA2 /* CFNetwork.framework in Frameworks */,
+				C81B24241C78C4B900C44EA2 /* MobileCoreServices.framework in Frameworks */,
+				C81B24221C78C49C00C44EA2 /* CoreGraphics.framework in Frameworks */,
+				C81B24201C78C49300C44EA2 /* Security.framework in Frameworks */,
+				C81B241E1C78C48300C44EA2 /* CoreLocation.framework in Frameworks */,
+				C81B241C1C78C45600C44EA2 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +176,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C81B241A1C78C44700C44EA2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C81B24311C78C54400C44EA2 /* MediaPlayer.framework */,
+				C81B242F1C78C53200C44EA2 /* AVFoundation.framework */,
+				C81B242D1C78C51700C44EA2 /* libicucore.tbd */,
+				C81B242B1C78C4FD00C44EA2 /* libz.1.2.5.tbd */,
+				C81B24291C78C4E700C44EA2 /* SystemConfiguration.framework */,
+				C81B24271C78C4D500C44EA2 /* CoreTelephony.framework */,
+				C81B24251C78C4BE00C44EA2 /* CFNetwork.framework */,
+				C81B24231C78C4B900C44EA2 /* MobileCoreServices.framework */,
+				C81B24211C78C49C00C44EA2 /* CoreGraphics.framework */,
+				C81B241F1C78C49300C44EA2 /* Security.framework */,
+				C81B241D1C78C48300C44EA2 /* CoreLocation.framework */,
+				C81B241B1C78C45600C44EA2 /* BmobSDK.framework */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		C84824B11C7837F200A10ACA = {
 			isa = PBXGroup;
 			children = (
+				C81B241A1C78C44700C44EA2 /* Lib */,
 				C84824BC1C7837F200A10ACA /* wireless-order */,
 				C84824D61C7837F200A10ACA /* wireless-orderTests */,
 				C84824E11C7837F200A10ACA /* wireless-orderUITests */,
@@ -573,6 +629,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "wireless-order/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.turingx.wireless-order";
@@ -584,6 +644,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "wireless-order/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.turingx.wireless-order";
