@@ -13,6 +13,7 @@
 #import "SyncDataView.h"
 #import "TableView.h"
 #import "DetailViewController.h"
+#import "MenuManager.h"
 
 @interface MasterViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
@@ -32,5 +33,7 @@
 //Detail视图属性
 @property(nonatomic, strong)DetailViewController *detail;
 
+//菜单管理属性
+@property(nonatomic, strong)MenuManager *menuManager;
 
 @end

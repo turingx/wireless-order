@@ -9,6 +9,7 @@
 #import "MasterViewController.h"
 #import "constant.h"
 
+
 @interface MasterViewController ()
 
 @end
@@ -33,6 +34,12 @@
     [self initDatasource];  //调用数据源
     
     [self initViews]; //调用主视图菜单栏目跳转视图方法
+    
+    self.menuManager = [[MenuManager alloc] init]; //初始化分类管理（同步数据方法类）
+    
+    [self.menuManager syncMenu];   //调用同步数据方法获取菜单数据
+    [self.menuManager syncMenuType];  //调用同步数据的方法获取菜单分类数据
+    
     
     
     // Do any additional setup after loading the view.
