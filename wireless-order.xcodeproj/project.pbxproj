@@ -47,6 +47,7 @@
 		C84825181C783E5B00A10ACA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C84825171C783E5B00A10ACA /* libsqlite3.tbd */; };
 		C848251E1C784B3600A10ACA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C848251D1C784B3600A10ACA /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C84825211C784B5700A10ACA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84825201C784B5700A10ACA /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C88319761C7F0017003B8A44 /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C88319751C7F0017003B8A44 /* DBUtil.m */; settings = {ASSET_TAGS = (); }; };
 		C8BE99001C798A9B00EAEE52 /* MenuType.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE98FF1C798A9B00EAEE52 /* MenuType.m */; settings = {ASSET_TAGS = (); }; };
 		C8BE99031C798B2800EAEE52 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99021C798B2800EAEE52 /* Menu.m */; settings = {ASSET_TAGS = (); }; };
 		C8BE99061C798C9600EAEE52 /* MenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE99051C798C9600EAEE52 /* MenuManager.m */; settings = {ASSET_TAGS = (); }; };
@@ -139,6 +140,8 @@
 		C848251F1C784B5700A10ACA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C84825201C784B5700A10ACA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C84825221C78548200A10ACA /* constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = constant.h; path = ../constant.h; sourceTree = "<group>"; };
+		C88319741C7F0017003B8A44 /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
+		C88319751C7F0017003B8A44 /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
 		C8BE98FE1C798A9B00EAEE52 /* MenuType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuType.h; sourceTree = "<group>"; };
 		C8BE98FF1C798A9B00EAEE52 /* MenuType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuType.m; sourceTree = "<group>"; };
 		C8BE99011C798B2800EAEE52 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 		C84825191C78499300A10ACA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C88319741C7F0017003B8A44 /* DBUtil.h */,
+				C88319751C7F0017003B8A44 /* DBUtil.m */,
 				C8BE98FE1C798A9B00EAEE52 /* MenuType.h */,
 				C8BE98FF1C798A9B00EAEE52 /* MenuType.m */,
 				C8BE99011C798B2800EAEE52 /* Menu.h */,
@@ -500,6 +505,7 @@
 				C84825141C783BD600A10ACA /* FMDatabaseQueue.m in Sources */,
 				C84825111C783BD600A10ACA /* FMDatabase.m in Sources */,
 				C81B24101C7878AF00C44EA2 /* TableView.m in Sources */,
+				C88319761C7F0017003B8A44 /* DBUtil.m in Sources */,
 				C81B24161C7878F500C44EA2 /* SyncDataView.m in Sources */,
 				C848251E1C784B3600A10ACA /* MasterViewController.m in Sources */,
 				C84824FF1C783BB800A10ACA /* AFNetworkReachabilityManager.m in Sources */,

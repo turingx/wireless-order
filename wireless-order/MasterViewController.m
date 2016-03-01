@@ -37,8 +37,8 @@
     
     self.menuManager = [[MenuManager alloc] init]; //初始化分类管理（同步数据方法类）
     
-    [self.menuManager syncMenu];   //调用同步数据方法获取菜单数据
-    [self.menuManager syncMenuType];  //调用同步数据的方法获取菜单分类数据
+  //  [self.menuManager syncMenu];   //调用同步数据方法获取菜单数据
+  //  [self.menuManager syncMenuType];  //调用同步数据的方法获取菜单分类数据
     
     
     
@@ -73,23 +73,28 @@
     
     switch (indexPath.row) {
         case 0:
-            self.detail.view = self.menuView;
+           // self.detail.view = self.menuView;
+            
             NSLog(@"浏览菜单");
             break;
         case 1:
-            self.detail.view = self.tableView;
+           // self.detail.view = self.tableView;
+            
             NSLog(@"查看餐台");
             break;
         case 2:
-            self.detail.view = self.payView;
+           // self.detail.view = self.payView;
+            
             NSLog(@"买单结算");
             break;
         case 3:
-            self.detail.view = self.syncDataView;
+            //self.detail.view = self.syncDataView;
+            
             NSLog(@"同步数据");
             break;
         case 4:
-            self.detail.view = self.settingView;
+           // self.detail.view = self.settingView;
+            
             NSLog(@"系统设置");
             break;
             

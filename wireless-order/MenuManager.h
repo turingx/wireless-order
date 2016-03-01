@@ -10,6 +10,7 @@
 #import <BmobSDK/Bmob.h>
 #import "Menu.h"
 #import "MenuType.h"
+#import "AFNetworking.h"  //导入AFNetworking框架实现文件下载
 
 @interface MenuManager : NSObject
 

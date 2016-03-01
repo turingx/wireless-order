@@ -27,8 +27,8 @@
     //2.detail
     self.detail = [[DetailViewController alloc] init];
     UINavigationController *detailNav = [[UINavigationController alloc]initWithRootViewController:self.detail];
-    
-    self.master.detail = self.detail;
+   // self.detail.title = @"详情列表";
+  //  self.master.detail = self.detail;
     
     
     //3.split
@@ -37,6 +37,8 @@
     self.split.maximumPrimaryColumnWidth = MAX_WIDTH;   //导入constant.h里定义的宽度
     
     self.window.rootViewController = self.split;
+    
+
     
     return YES;
 }

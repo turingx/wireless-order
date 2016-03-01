@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SyncDataView : UIView
+@interface SyncDataView : UIView<UITableViewDataSource, UITableViewDelegate>
+
+@property(nonatomic, strong)UITableView *tv;
+@property(nonatomic, strong)NSArray *dataSource;
+
 
 -(instancetype)initWithFrame:(CGRect)frame;
 
